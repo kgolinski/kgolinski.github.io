@@ -1,4 +1,4 @@
 kgolinski.github.io
 ===================
 
-test page
+Jekyll blog content
