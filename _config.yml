@@ -1,2 +1,9 @@
-baseurl: /
-name: tests and experiments
+name: Tests and Experiments Blog
+description: Enough said
+author: Krzysztof Goliński
+author_email: krzysztof@golinski.org
+category_dir: /
+baseurl: 
+url: http://kgolinski.github.io
+permalink: pretty
+exclude: [README.markdown]
