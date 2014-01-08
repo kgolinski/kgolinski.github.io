@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: default
 title: Hello World!
 tags: [test, wip]
+javascript: test.js
 ---
 
 Hello World!
