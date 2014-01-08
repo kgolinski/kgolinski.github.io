@@ -5,5 +5,5 @@ author_email: krzysztof@golinski.org
 category_dir: /
 baseurl: 
 url: http://kgolinski.github.io
-permalink: none
+permalink: /posts/:title
 exclude: [README.md, Gemfile, Gemfile.lock]
