@@ -1,4 +1,4 @@
-name: Tests and Experiments Blog
+name: Blog
 description: Adventures in code and art
 author: Krzysztof Goliński
 author_email: krzysztof@golinski.org
@@ -7,4 +7,4 @@ baseurl:
 timezone: Europe/Warsaw
 url: http://kgolinski.github.io
 permalink: /posts/:title
-exclude: [README.md, Gemfile, Gemfile.lock, style.scss,CNAME]
+exclude: [README.md, Gemfile, Gemfile.lock, style.scss, CNAME]
