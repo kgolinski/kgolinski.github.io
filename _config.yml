@@ -7,4 +7,4 @@ baseurl:
 timezone: Europe/Warsaw
 url: http://kgolinski.github.io
 permalink: /posts/:title
-exclude: [README.md, Gemfile, Gemfile.lock]
+exclude: [README.md, Gemfile, Gemfile.lock, style.scss,CNAME]
