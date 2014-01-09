@@ -12,12 +12,10 @@ Vestibulum imperdiet adipiscing arcu, quis aliquam dolor condimentum dapibus. Al
 
 Proin feugiat libero ac lorem mollis fermentum. Cras et lacus sodales nisl facilisis ornare. Sed dolor eros, pulvinar ac varius non, bibendum eget odio. Nulla facilisi. Pellentesque et nisi a tellus ullamcorper faucibus. Nullam sagittis tempor mi non mattis. Proin ultricies, enim sit amet bibendum tristique, ligula ante feugiat nunc, sit amet imperdiet tortor nisl et felis. Pellentesque et nisl dui, non dictum libero. Vivamus tempor ante ac leo suscipit a sodales ligula iaculis. Curabitur massa mi, semper sed bibendum eget, auctor in nulla. Quisque at mi in ligula viverra suscipit sed vitae leo. 
 
-{% highlight javascript %}
-//the same for footer
-$('.paging').click(function(){
-	$(this).children(0)[0].click();
-});
-$('.paging a').click(function(event){
-	event.stopPropagation();
-});
+{% highlight ruby %}
+def foo
+  puts 'foo'
+end
 {% endhighlight %}
+
+{% gist kgolinski/3e0df3f2ed5eb5bc91c6 %}
