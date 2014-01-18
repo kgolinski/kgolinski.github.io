@@ -5,6 +5,7 @@ author_email: krzysztof@golinski.org
 category_dir: /
 baseurl: 
 timezone: Europe/Warsaw
-url: http://kgolinski.github.io
+url: http://blog.golinski.org
 permalink: /posts/:title
 exclude: [README.md, Gemfile, Gemfile.lock, style.scss, CNAME]
+paginate: 5
