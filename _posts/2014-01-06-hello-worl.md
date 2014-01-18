@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hello World!
-tags: [test, wip]
+tags: [test]
 ---
 
 Hello World!

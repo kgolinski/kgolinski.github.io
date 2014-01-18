@@ -79,20 +79,27 @@ main {
 	margin: 0 0 2px 4px;
 	font-size:10px;
 }
-
 pre {
     //background-color: #262721; //monokai
-    margin-left: 30px;
+    margin: 20px 20px 20px 26px;
     padding: 5px;
     width: 80%;
+    border: 1px solid #dddddd;
 }
-
 code {
     //background-color: #262721;//monokai
     padding-left: 3px;
     padding-right: 3px;
 }
-
-footer { display:block; clear:both; margin:15px 0 0 0; padding:17px 0 0 0; background: url("../img/dash.gif") no-repeat top left; font-weight:700px; font-size:10px;
-	.name { text-transform: uppercase; }
+footer { 
+	display:block; 
+	clear:both; 
+	margin:15px 0 0 0; 
+	padding:17px 0 0 0; 
+	background: url("../img/dash.gif") no-repeat top left; 
+	font-weight:700px; 
+	font-size:10px;
+	.name { 
+		text-transform: uppercase; 
+	}
 }

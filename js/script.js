@@ -1,13 +1,12 @@
 $(function(){
+	
 	canvas = document.getElementById("canvas");
 	ctx = canvas.getContext('2d'); 
 	clear();
 	window.addEventListener('resize', resize);
-    resize();  
+    resize();
 });
 function drawBg(width, color, lineColor, angle){
-  ctx.fillStyle = color;
-  ctx.fillRect(0,0,width,canvas.height);
   ctx.beginPath();
 	ctx.moveTo(0,0);
 	ctx.lineTo(canvas.height*Math.sin(42.5*Math.PI/180),canvas.height); 

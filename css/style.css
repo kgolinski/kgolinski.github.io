@@ -73,9 +73,10 @@ main {
   font-size: 10px; }
 
 pre {
-  margin-left: 30px;
+  margin: 20px 20px 20px 26px;
   padding: 5px;
-  width: 80%; }
+  width: 80%;
+  border: 1px solid #dddddd; }
 
 code {
   padding-left: 3px;
