@@ -6,7 +6,7 @@ category_dir: /
 baseurl: 
 timezone: Europe/Warsaw
 url: http://blog.golinski.org
-permalink: /posts/:title
+permalink: /post/:title
 paginate: 5
 paginate_path: ":num"
 exclude: [README.md, Gemfile, Gemfile.lock, style.scss, CNAME]
