@@ -1,4 +1,4 @@
-name: Blog
+name: Krzysztof Goliński
 description: Adventures in code and art
 author: Krzysztof Goliński
 author_email: krzysztof@golinski.org
@@ -7,5 +7,6 @@ baseurl:
 timezone: Europe/Warsaw
 url: http://blog.golinski.org
 permalink: /posts/:title
-exclude: [README.md, Gemfile, Gemfile.lock, style.scss, CNAME]
 paginate: 5
+paginate_path: ":num"
+exclude: [README.md, Gemfile, Gemfile.lock, style.scss, CNAME]
