@@ -50,7 +50,7 @@ main {
   left: 278px;
   top: 0;
   width: 777px;
-  padding: 113px 0 0 72px;
+  padding: 113px 72px 0 72px;
   font-size: 11px; }
   main article {
     padding: 0 0 20px 0;
@@ -65,24 +65,26 @@ main {
         font-size: 16px; }
       main article h2 a:hover {
         text-decoration: underline; }
-    main article .tags {
-      margin: 10px 0 0 0;
-      font-weight: 700;
-      font-size: 11px; }
-      main article .tags i {
-        font-size: 14px; }
-      main article .tags .tag {
-        -webkit-border-radius: 3px;
-        -moz-border-radius: 3px;
-        border-radius: 3px;
-        background: #444;
-        color: #fff;
-        padding: 4px;
-        margin: 0 0 2px 4px;
-        font-size: 10px; }
     main article .date {
       margin: 5px 0 0 0;
       font-size: 14px; }
+  main time {
+    font-size: 14px; }
+  main .tags {
+    margin: 10px 0 0 0;
+    font-weight: 700;
+    font-size: 11px; }
+    main .tags i {
+      font-size: 14px; }
+    main .tags .tag {
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      border-radius: 3px;
+      background: #444;
+      color: #fff;
+      padding: 4px;
+      margin: 0 0 2px 4px;
+      font-size: 10px; }
   main pre {
     margin: 20px 20px 20px 26px;
     padding: 5px;

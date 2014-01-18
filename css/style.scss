@@ -56,7 +56,7 @@ main {
 	left:278px; 
 	top:0; 
 	width:777px; 
-	padding:113px 0 0 72px; 
+	padding:113px 72px 0 72px; 
 	font-size:11px;
 	article{
 		padding: 0 0 20px 0;
@@ -73,7 +73,17 @@ main {
 				text-decoration: underline;
 			}
 		}
-		.tags { 
+		
+		.date { 
+			margin:5px 0 0 0;
+			font-size:14px; 
+		}
+	}
+	//article:last-of-type { 
+	//	background:none;
+	//}
+	time { font-size: 14px;}
+	.tags { 
 			margin:10px 0 0 0;
 			//color:#666;
 			font-weight:700;
@@ -92,15 +102,7 @@ main {
 				margin: 0 0 2px 4px;
 				font-size:10px;
 			}
-		}
-		.date { 
-			margin:5px 0 0 0;
-			font-size:14px; 
-		}
 	}
-	//article:last-of-type { 
-	//	background:none;
-	//}
 	pre {
 	    //background-color: #262721; //monokai
 	    margin: 20px 20px 20px 26px;
