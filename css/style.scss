@@ -105,18 +105,31 @@ main {
 	}
 	pre {
 	    //background-color: #262721; //monokai
-	    margin: 20px 20px 20px 26px;
-	    padding: 5px;
-	    width: 593px;
+	    margin: 20px 20px 20px 0;
+	    padding: 5px 0 5px 5px;
+	    width: 700px;
 	    border: 1px solid #dddddd;
+	    border-radius: 3px;
 	}
 	p {
 		margin-bottom:20px;
 	}
 	code {
 	    //background-color: #262721;//monokai
-	    padding-left: 3px;
-	    padding-right: 3px;
+	    //padding-left: 3px;
+	    //padding-right: 3px;
+	}
+	.lineno{
+		padding:0 4px 0 6px;
+		background:#ececec;
+		color:#aaa;
+		margin-left:-5px;
+	}
+	.lineno-first{
+		padding-top:5px;
+	}
+	.lineno-last{
+		padding-bottom:5px;
 	}
 	iframe {
 		margin: 20px 0;

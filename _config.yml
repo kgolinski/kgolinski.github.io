@@ -4,6 +4,7 @@ author: Krzysztof Goliński
 author_email: krzysztof@golinski.org
 category_dir: /
 baseurl: 
+excerpt_separator: 
 timezone: Europe/Warsaw
 url: http://blog.golinski.org
 permalink: /post/:title

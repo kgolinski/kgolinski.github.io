@@ -5,6 +5,8 @@ $(function(){
 	clear();
 	window.addEventListener('resize', resize);
     resize();
+    $(".lineno").first().addClass('lineno-first');
+    $(".lineno").last().addClass('lineno-last');
 });
 function drawBg(width, color, lineColor, angle){
     ctxBg.beginPath();

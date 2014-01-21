@@ -16,4 +16,3 @@ def foo
 end
 {% endhighlight %}
 
-{% gist kgolinski/3e0df3f2ed5eb5bc91c6 %}
