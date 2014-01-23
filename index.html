@@ -13,7 +13,7 @@ title: Home
 			  {% when '2' or '22' %}{{ d }}nd
 			  {% when '3' or '23' %}{{ d }}rd
 			  {% else %}{{ d }}th
-			  {% endcase %}, 
+			{% endcase %}, 
 			{{ post.date | date: "%Y" }}</time></div>
             {% if post.tags.size > 0 %}<div class="tags">{%if  post.tags.size > 1 %}<i class="fa fa-tags"></i>{% else %}<i class="fa fa-tag"></i>{% endif %}{% for tag in post.tags %}<span class="tag">{{ tag }}</span>{% endfor %}</div>{% endif %}
         </article>
