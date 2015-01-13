@@ -6,7 +6,7 @@
         {% include nav.html %}
         <main>
         	<h1>{{ page.title }}</h1>
-        	<time datetime="{{page.date|date:"%F"}}">{% assign d = page.date | date: "%-d"  %}
+        	<i class="fa fa-clock-o"></i><time datetime="{{page.date|date:"%F"}}">{% assign d = page.date | date: "%-d"  %}
 			{{ page.date | date: "%B" }}
 			{% case d %}
 			  {% when '1' or '21' or '31' %}{{ d }}st

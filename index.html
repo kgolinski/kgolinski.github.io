@@ -5,7 +5,7 @@ title: Home
 {% for post in paginator.posts %}
         <article>
             <h2><a href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a></h2>
-            <div class="date">
+            <div class="date"> <i class="fa fa-clock-o"></i>
             <time datetime="{{post.date|date:"%F"}}">{% assign d = post.date | date: "%-d"  %}
 			{{ post.date | date: "%B" }}
 			{% case d %}
