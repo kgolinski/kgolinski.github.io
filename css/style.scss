@@ -7,8 +7,11 @@
 `---|`---'`---'``   '`---'`   ``o`---'`    `---|
 `---'                                      `---' 2014
 */
-@fa-font-path:   "../font";
-//@import 'font-awesome/font-awesome';
+$fa-font-path:   "../font";
+@import 'font-awesome/font-awesome';
+@import 'syntax';
+//@import 'monokai';
+
 
 * { 
 	margin:0; 
@@ -62,6 +65,18 @@ main {
 	width:777px; 
 	padding:113px 72px 0 72px; 
 	font-size:11px;
+	section.archive{
+		line-height:20px;
+		a { 
+			color:#000;
+			text-decoration: none;
+			font-weight:700; 
+			font-size:14px;
+		}
+		a:hover {
+			text-decoration: underline;
+		}
+	}
 	article{
 		padding: 0 0 20px 0;
 		margin:0 0 20px 0;
