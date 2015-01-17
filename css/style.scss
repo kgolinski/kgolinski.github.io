@@ -11,8 +11,11 @@ $fa-font-path:   "../font";
 @import 'font-awesome/font-awesome';
 @import 'syntax';
 //@import 'monokai';
-
-
+@mixin border-radius($radius) {
+    -moz-border-radius: $radius;
+    -webkit-border-radius: $radius;
+    border-radius: $radius;
+}
 * { 
 	margin:0; 
 	padding:0; 
@@ -112,16 +115,17 @@ main {
 				font-size:14px;
 			}
 			.tag {
-				-webkit-border-radius: 3px;
-				-moz-border-radius: 3px;
-				border-radius: 3px;
+				//@include border-radius(10px 2px 2px 10px);
+				@include border-radius(3px);
 				//background:#c3c3c3;
 				background:#333;
-				color:#fff;
-				padding:4px 8px;
+				color:#fefefe;
+				padding:4px 8px; //4px 8px 5px 4px;
 				margin: 0 0 2px 4px;
 				font-size:10px;
-				text-shadow: -1px -1px 0 rgba(255,255,255,0.2);
+				//text-shadow: -1px -1px 0 rgba(255,255,255,0.2);
+				letter-spacing: .5px;
+				//.dot{margin-right:4px;} //<span class="dot">&#x25cf;</span>
 			}
 	}
 	pre {
@@ -134,6 +138,8 @@ main {
 	}
 	p {
 		margin-bottom:20px;
+		font-size:12px;
+		line-height:18px;
 	}
 	code {
 	    //background-color: #262721;//monokai
