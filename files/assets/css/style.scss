@@ -39,6 +39,13 @@ body {
 	left:60px; 
 	top:113px;
 }
+a{
+	color:#000;
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:underline;
+}
 nav { 
 	padding:15px 0 0 0; 
 	position:fixed; 
@@ -95,7 +102,6 @@ main {
 				text-decoration: underline;
 			}
 		}
-		
 		.date { 
 			margin:5px 0 0 0;
 			font-size:14px;
