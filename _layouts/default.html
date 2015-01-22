@@ -1,11 +1,15 @@
-<!DOCTYPE html>
-<html>
-    {% include head.html %}
-    <body>
-        {% include header.html %}
-        {% include nav.html %}
+{% include header.html %}
+        <canvas id="canvas-bg"></canvas>
+		<header>
+		<a href="/"><img src="/files/assets/img/logo.png" id="logo" alt="Krzysztof Goliński"/></a>
+		</header>
+         <nav>
+            <ul>
+                <li><a href="http://www.golinski.org">MAIN</a></li>
+            </ul>
+            <footer>&copy; {{ site.time | date: "%Y" }} <span class="name">Krzysztof Goliński</span></footer>
+        </nav>
         <main>
             {{ content }}
         </main>
-    </body>
-</html>
+{% include footer.html %}
