@@ -75,18 +75,6 @@ main {
 	width:777px; 
 	padding:113px 72px 0 72px; 
 	font-size:11px;
-	section.archive{
-		line-height:20px;
-		a { 
-			color:#000;
-			text-decoration: none;
-			font-weight:700; 
-			font-size:14px;
-		}
-		a:hover {
-			text-decoration: underline;
-		}
-	}
 	article{
 		padding: 0 0 20px 0;
 		margin:0 0 20px 0;
@@ -166,6 +154,20 @@ main {
 	}
 	iframe {
 		margin: 20px 0;
+	}
+	section.archive{
+		line-height:20px;
+		time { width:120px; }
+		div a { position:absolute; left:185px;}
+		a { 
+			color:#000;
+			text-decoration: none;
+			font-weight:700; 
+			font-size:14px;
+		}
+		a:hover {
+			text-decoration: underline;
+		}
 	}
 }
 #pagination {
