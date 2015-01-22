@@ -7,6 +7,7 @@
 `---|`---'`---'``   '`---'`   ``o`---'`    `---|
 `---'                                      `---' 2014
 */
+
 $fa-font-path:   "../fonts";
 @import 'font-awesome/font-awesome';
 @import 'syntax';
@@ -157,7 +158,6 @@ main {
 	}
 	section.archive{
 		line-height:20px;
-		time { width:120px; }
 		div a { position:absolute; left:185px;}
 		a { 
 			color:#000;
