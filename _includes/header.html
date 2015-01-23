@@ -7,12 +7,12 @@
         <meta name="author" content="{{site.author}}"/>
         <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="{{site.baseurl}}/feed.xml" />
 
-        <script type="text/javascript" src="{{site.baseurl}}/files/assets/js/jquery-1.10.2.min.js"></script>
-        <script type="text/javascript" src="{{site.baseurl}}/files/assets/js/script.js"></script>
-        {% if page.js %}<script type="text/javascript" src="{{site.baseurl}}/files/{{ page.js }}"></script>{% endif %}
+        <script type="text/javascript" src="{{ site.baseurl }}/assets/js/jquery-1.10.2.min.js"></script>
+        <script type="text/javascript" src="{{ site.baseurl }}/assets/js/script.js"></script>
+        {% if page.js %}<script type="text/javascript" src="{{ page.js }}"></script>{% endif %}
 
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:100,400,700,400italic,700italic,900" type="text/css">
-        <link rel="stylesheet" href="{{site.baseurl}}/files/assets/css/style.css" type="text/css" />
-        {% if page.css %} <link rel="stylesheet" href="{{site.baseurl}}/files/{{ page.css }}" />{% endif %}
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css" type="text/css" />
+        {% if page.css %} <link rel="stylesheet" href="{{ page.css }}" />{% endif %}
     </head>
     <body>

@@ -3,4 +3,4 @@ layout: post
 title: Contour map
 tags: [processing]
 ---
-![Contour Map](/files/contour.jpg)
+![Contour Map](contour.jpg)
