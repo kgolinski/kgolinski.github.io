@@ -3,11 +3,11 @@ description: Adventures in code and art
 author: Krzysztof Goliński
 author_email: krzysztof@golinski.org
 category_dir: /
-baseurl: 
-excerpt_separator: 
+excerpt_separator: <!--more-->
 timezone: Europe/Warsaw
 url: http://blog.golinski.org
 permalink: /post/:title
+plugins: [jekyll-paginate]
 paginate: 5
 paginate_path: ":num"
 exclude: [README.md, Gemfile, Gemfile.lock, style.scss, CNAME]
