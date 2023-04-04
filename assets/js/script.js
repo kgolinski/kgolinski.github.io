@@ -1,6 +1,6 @@
 let canvasBg, ctxBg;
 
-document.addEventListener("DOMContentLoaded", function (e) {
+document.addEventListener("DOMContentLoaded", (e) => {
 	canvasBg = document.getElementById("canvas-bg");
 	ctxBg = canvasBg.getContext('2d');
 	clear();
