@@ -23,6 +23,6 @@ const clear = () => {
 
 const resize = () => {
 	document.getElementById("canvas-bg").setAttribute('width', 1024);
-	document.getElementById("canvas-bg").setAttribute('height', Math.max(768, $(document).height()));
+	document.getElementById("canvas-bg").setAttribute('height', Math.max(768, document.scrollHeight));
 	drawBg(278, "rgba(255,192,0,1.0)", "rgba(0,0,0,0.3)", 30);
 }
